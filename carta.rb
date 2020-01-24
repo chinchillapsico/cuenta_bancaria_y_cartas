@@ -14,10 +14,10 @@ class Carta
 
     end    
 end    
-mano = []
-pintas =["C","D","E","T"].sample
-5.times do
-    mano << Carta.new(rand(1..13), pintas) 
-end
-print mano
-carta1 = Carta.new(13,"D")    
+# mano = []
+# pintas =["C","D","E","T"].sample
+# 5.times do
+#     mano << Carta.new(rand(1..13), pintas) 
+# end
+# print mano
+# carta1 = Carta.new(13,"D")    
